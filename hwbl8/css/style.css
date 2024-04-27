@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 40px;
+    background: white;
+  }
+
+a {text-decoration: none}
+
+header{
+    background: url(https://hubblesite.org/files/live/sites/hubble/files/home/_images/banner_images/hs-banner-1427a.jpg?t=tn2400);
+    height: 100px;
+}
+
+#web{
+    background: black;
+    color: #f22020;
+    font-weight: 800;
+    position: left
+    }
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+ #web, li, input {
+    display:inline;
+}
+
+a{
+    font-size:80;
+    font-weight: 800;
+    padding: 20px;
+    color: #F8F8F8;
+}
+
+a:hover{
+    color: #FFCF48;
+    text-decoration: none;
+
+}
+
+
+#search {
+    float: right;
+    margin-left: 20px;
+    border: 0;
+    background: #ECECEC;
+    width: 360px;
+    height: 44px;
+    font-weight: 300;
+    font-size: 20px;
+    text-indent: 20px;
+    outline: none;
+    margin-top: 5px;
+    }
+
+#web{
+    float: left;
+    margin-right: 20px;
+}
+/*
+header {
+    position: fixed;
+}
+*/
+body{
+    background: #ECECEC;
+}
+
+.htext{
+    text-align: center
+}
+
+.block1{
+    background: #ECECEC;
+    margin: 5px;
+    width: 65%;
+    height: auto;
+    border-width:1;
+    padding: 10px;
+    border-color: #c4c2c2;
+    border-style: solid;
+    overflow: auto;
+    font-size: 20px;
+    float:left
+}
+
+.block2{
+    background: #ECECEC;
+    width: 20%;
+    height: auto;
+    margin-top: 2px;
+    padding-top: 0px;
+    border-width:1;
+    border-color: #c4c2c2;
+    border-style: solid;
+    overflow: auto;
+    font-size: 20px;
+    float:left
+}
+
+.block1, .block2 {
+    display: inline-block
+}
+
+p.text{
+    background: #ECECEC;
+    font-weight: 300;
+    color: black;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 10px solid #938f8f;
+    border-radius: 20px;
+    margin-left: 230px;
+    }
+
+#imgtext{
+    background: #ECECEC;
+    font-weight: 300;
+    color: black;
+    text-align: justify;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-left: 235px;
+}
+footer {
+    width: 98%;
+    float: left;
+    padding: 2%;
+    background: url(https://hubblesite.org/files/live/sites/hubble/files/home/resource-gallery/articles/_images/hs-1821a-2400x1200.jpg?t=tn2400);
+    border-top: 2px solid silver;
+    margin-top: 10px;
+}
+
+#YouTube{
+    margin: 40px;
+    padding: 10px;
+    border: 2px solid #938f8f;
+    background-color: #b14a4a;
+    }
+
+#Twitter{
+    margin: 40px;
+    padding: 10px;
+    border: 2px solid #938f8f;
+    background-color: #165097;
+    }
+
+#FaceBook{
+    margin: 40px;
+    padding: 10px;
+    border: 2px solid #938f8f;
+    background-color: #062b6a;
+    }   
+
+#Instagram{
+    margin: 40px;
+    padding: 10px;
+    border: 2px solid #938f8f;
+    background-color: #d68a2d;
+    }   
+span {
+    font-size: 30px;
+    font-style: italic;
+}

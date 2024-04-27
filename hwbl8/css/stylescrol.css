@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 40px;
+    background: white;
+    height: 2000px;
+  }
+
+a {text-decoration: none}
+
+header {
+    width: 1800px;
+    height: 150px;
+    background: rgb(21, 34, 75);
+    position: fixed;
+}
+
+li {
+    display: inline;
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid #938f8f;
+}
+
+a{
+    font-size:80;
+    font-weight: 800;
+    padding: 20px;
+    color: #F8F8F8;
+}
+
+a:hover{
+    color: #FFCF48;
+    text-decoration: none;
+}
+
+img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 10px solid #938f8f;
+    border-radius: 20px;
+    margin-left: 230px;
+    margin-top: 230px;
+    }
